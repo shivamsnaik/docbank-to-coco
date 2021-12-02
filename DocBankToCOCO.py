@@ -149,7 +149,7 @@ class COCOData:
                 json_dict = self.create_dict_layout()
                 # json_dict["info"]["contributor"] = "PMC Open Access Subset" if (re.search("pmc", self.src_file_path[i]))  else "arXiv"
                 # json_dict["info"]["description"] = "Exported from PMC Open Access Subset" if (re.search("pmc", self.src_file_path[i]))  else "Exported from arXiv Open-access Archive"
-                image_dict = self.set_image_properties(os.path.split(coco.coco_file_path[i])[1].replace(".json", ".jpg"), image_id)
+                image_dict = self.set_image_properties(os.path.split(self.coco_file_path[i])[1].replace(".json", ".jpg"), image_id)
                 
                 # Each Image present in the file is fetched and added to a cocoData object
                 for doc_object in self.src_dictionary[i].values:

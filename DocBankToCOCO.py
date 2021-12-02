@@ -81,73 +81,13 @@ class COCOData:
          'section',
          'table',
          'title']
-        temp_dict["categories"] = [
-            {
-                "id": 0,
-                "name": "Abstract",
-                "supercategory": ""
-            },
-            {
-                "id": 1,
-                "name": "Author",
-                "supercategory": ""
-            },
-            {
-                "id": 2,
-                "name": "Caption",
-                "supercategory": ""
-            },
-            {
-                "id": 3,
-                "name": "Equation",
-                "supercategory": ""
-            },
-            {
-                "id": 4,
-                "name": "Figure",
-                "supercategory": ""
-            },
-            {
-                "id": 5,
-                "name": "Footer",
-                "supercategory": ""
-            },
-            {
-                "id": 6,
-                "name": "List",
-                "supercategory": ""
-            },
-            {
-                "id": 7,
-                "name": "Paragraph",
-                "supercategory": ""
-            },
-            {
-                "id": 8,
-                "name": "Reference",
-                "supercategory": ""
-            },
-            {
-                "id": 9,
-                "name": "Section",
-                "supercategory": ""
-            },
-            {
-                "id": 10,
-                "name": "Table",
-                "supercategory": ""
-            },
-            {
-                "id": 11,
-                "name": "Title",
-                "supercategory": ""
-            },
-            {
-                "id": 12,
-                "name": "Date",
-                "supercategory": ""
-            }
-        ]
+        temp_dict["categories"] = [{"id": 0,"name": "Abstract","supercategory": ""},{"id": 1,"name": "Author","supercategory": ""},
+            {"id": 2,"name": "Caption","supercategory": ""},{"id": 3,"name": "Equation","supercategory": ""},
+            {"id": 4,"name": "Figure","supercategory": ""},{"id": 5,"name": "Footer","supercategory": ""},
+            {"id": 6,"name": "List","supercategory": ""},{"id": 7,"name": "Paragraph","supercategory": ""},
+            {"id": 8,"name": "Reference","supercategory": ""},{"id": 9,"name": "Section","supercategory": ""},
+            {"id": 10,"name": "Table","supercategory": ""},{"id": 11,"name": "Title","supercategory": ""},
+            {"id": 12,"name": "Date","supercategory": ""}]
         temp_dict["images"] = []
         temp_dict["annotations"] = []
         
